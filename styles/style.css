@@ -11,23 +11,25 @@ body {
   min-width: 960px;
 }
 #money_header {
-  
-  background-color: black;
-  background-size: cover;
   width: 100%;
   height: 500px;
+  padding-top: 40px;
   background-position-x : 50%;
   background-position-y : 50%;
-  padding-top: 40px;
+  background-color: black;
+  background-size: cover;
 }
-.money_header_main{
+.money_header_main {
 	background: url("../images/money_header.jpg") bottom center no-repeat;
 }
-.money_header_usd{
+.money_header_usd {
 	background: url("../images/money_header_usd.jpg") bottom center no-repeat;
 }
-.money_header_eur{
+.money_header_eur {
 	background: url("../images/money_header_euro.jpg") bottom center no-repeat;
+}
+.money_header_btc {
+	background: url("../images/money_header_btc.jpg") bottom center no-repeat;
 }
 h1 {
   color: white;
@@ -117,7 +119,7 @@ ul.navig a.other_page:hover {
 	background-color: #5d7b9f;
 	color: white;
 	padding: 5px;
-	margin: 15xp 0 15px 0;
+	margin: 15px 0 15px 0;
 	line-height: 2em;
 }
 #links a[href^='http'] {
@@ -220,7 +222,7 @@ footer {
 }
 
 table {
-	border: 1px solid blue;
+	border: 1px solid white;
 	clear: both;
 	text-align: center;
 	margin-top: 20px;
@@ -229,7 +231,7 @@ table {
 	margin-bottom: 20px;
 }
 tbody td {
-	border: 1px solid blue;
+	border: 1px solid white;
 	padding: 5px 10px 5px 10px;
 	vertical-align: middle;
 	background-color: #eee;
@@ -238,7 +240,7 @@ thead td{
 	background-color: #aaa;
 	font-style: oblique;
 	font-weight: bold;
-	border: 1px solid blue;
+	border: 1px solid white;
 	padding: 10px 15px 10px 15px;
 	vertical-align: middle;
 }
